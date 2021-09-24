@@ -1,0 +1,22 @@
+/* CRAFTILI PAGE */
+video{
+max-width: 100%;
+padding-bottom: 12px;
+}
+
+.descHeader{
+  text-decoration: underline;
+  padding-bottom:4px;
+}
+.projDescription{
+  text-indent: 12px;
+  text-align: justify;
+  margin-bottom: 12px;
+}
+
+.contentDivCraftili {
+  position: relative;
+  bottom: -8px;
+  width: 100%;
+  padding-bottom:0px;
+}

@@ -10,60 +10,78 @@ src: url(“fonts/Inter-Medium.otf);
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Inter SemiBold;
+  font-family: Inter;
   font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -.5px;
+  //border-style: dotted;
 }
 
-.image {
-  width: 40%;
-  border: 0px;
-}
-.containerDiv{
-  display: flex;
-}
-.image2 {
-  width: 70%;
-  border: 0px;
-}
-.big {
-  padding-right: 50vw;
-}
-.big_footer{
-  padding-right: 60vw;
-}
-.small {
-  padding-right: 20vw;
-}
-.bio{
-  padding-bottom: 24px;
-  padding-right: 0;
-  font-size: 18px
-  position: flex;
-}
-.footer
-{
-  position: fixed;
-  bottom: 0px;
-}
 
 .websiteContainer {
   padding-top: 0vh;
   margin: 20px;
-  max-width: 300px;
   text-align: left;
+  border-color: green;
 }
+
 
 .headerInfo {
   padding-bottom: 12px;
-  line-height: 20px;
+  padding-right: 24px;
+  float: left;
+}
+.headerInfo:hover{
+  text-decoration: underline;
+}
+
+#headerInfoLink:link    {color:#000;}  /* unvisited link  */
+#headerInfoLink:visited {color:#000;}  /* visited link    */
+#headerInfoLink:hover   {color:black;}  /* mouse over link */
+#headerInfoLink:active  {color:#000;}  /* selected link   */
+
+.bio{
+  padding-right: 24px;
+  padding-bottom: 12px;
+  display: flex;
+  float: left;
+  border-color: red;
+  width: 90vw;
+  max-width: 400px;
+
+}
+
+.portfolio{
+  margin-top: 24px;
+  position: relative;
+  float: left;
+  min-width: 100%;
+  border-color: green;
+}
+
+.portfolioSpace{
+padding-right: 30px;
 }
 
 .contentDiv {
+  position: absolute;
+  background-color: white;
+  background-color:rgba(255,255,255, 0.5);
+  bottom: 0px;
+  width: 100%;
+  padding-bottom:12px;
   margin-top: 0px;
-  padding-right: 45vw;
-  line-height: 12px;
+  border-color: blue;
 }
 
 .projects {
   margin-bottom: 8px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .headerInfo, .bio .contentDiv {
+    width:80%;
+  }
+
 }

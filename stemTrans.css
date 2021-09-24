@@ -1,0 +1,36 @@
+/* CRAFTILI PAGE */
+video{
+max-width: 100%;
+padding-bottom: 12px;
+}
+
+img{
+  width: 70vw;
+}
+
+#stc_website:link    {color:#000;
+  text-decoration: underline;}  /* unvisited link  */
+#stc_website:visited {color:#000;
+  text-decoration: underline;}  /* visited link    */
+#stc_website:hover   {color:black;
+  text-decoration: none;}  /* mouse over link */
+#stc_website:active  {color:#000;
+  text-decoration: underline;}  /* selected link   */
+
+.descHeader{
+  text-decoration: underline;
+  padding-bottom:4px;
+}
+.projDescription{
+  text-indent: 12px;
+  text-align: justify;
+  margin-bottom: 12px;
+}
+
+#trans_logo{
+  background-color: black;
+  padding-left: 18px;
+  margin-bottom: 12px;
+}
+
+.

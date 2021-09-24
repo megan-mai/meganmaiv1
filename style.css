@@ -28,9 +28,13 @@ src: url(“fonts/Inter-Medium.otf);
 
 .headerInfo {
   padding-bottom: 12px;
-  padding-right: 24px;
+  padding-right: 0px;
   float: left;
-  width: 100%;
+  width: 20%;
+  border-color: yellow;
+}
+.topHalf{
+  padding-right:0px;
 }
 .headerInfo:hover{
   text-decoration: underline;
@@ -40,7 +44,9 @@ src: url(“fonts/Inter-Medium.otf);
 #headerInfoLink:visited {color:#000;}  /* visited link    */
 #headerInfoLink:hover   {color:black;}  /* mouse over link */
 #headerInfoLink:active  {color:#000;}  /* selected link   */
-
+.topHalf{
+  display: flex;
+}
 .bio{
   padding-right: 24px;
   padding-bottom: 12px;
@@ -66,8 +72,6 @@ padding-right: 48px;
 
 .contentDiv {
   position: absolute;
-  background-color: white;
-  background-color:rgba(255,255,255, 0.5);
   bottom: 0px;
   width: 100%;
   padding-bottom:12px;
@@ -81,8 +85,21 @@ padding-right: 48px;
 
 
 @media screen and (max-width: 800px) {
-  .headerInfo, .bio .contentDiv {
-    width:80%;
+  .headerInfo{
+    width:100%;
+
   }
+  .contentDiv {
+    width:100%;
+  }
+.bio{
+  float: left;
+  width: 100%;
+}
+.topHalf{
+  display: block;
+
+}
+}
 
 }

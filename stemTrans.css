@@ -10,6 +10,8 @@ video{
 
 img{
   width: 50vw;
+  max-width: 400px;
+
 }
 
 #stc_website:link    {color:#000;

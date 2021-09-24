@@ -1,17 +1,22 @@
 /* CRAFTILI PAGE */
+.websiteContainer{
+max-width: 600px;
+}
 video{
-max-width: 100%;
+width: 100%;
 padding-bottom: 12px;
+float:right;
 }
 
-.descHeader{
+#descHeader{
   text-decoration: underline;
-  padding-bottom:4px;
+  padding-bottom:0px;
 }
 .projDescription{
   text-indent: 12px;
   text-align: justify;
   margin-bottom: 12px;
+  max-width: 600px;
 }
 
 .contentDivCraftili {

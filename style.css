@@ -30,6 +30,7 @@ src: url(“fonts/Inter-Medium.otf);
   padding-bottom: 12px;
   padding-right: 24px;
   float: left;
+  width: 100%;
 }
 .headerInfo:hover{
   text-decoration: underline;
@@ -60,7 +61,7 @@ src: url(“fonts/Inter-Medium.otf);
 }
 
 .portfolioSpace{
-padding-right: 30px;
+padding-right: 48px;
 }
 
 .contentDiv {

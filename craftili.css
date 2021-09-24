@@ -2,16 +2,22 @@
 .websiteContainer{
 max-width: 600px;
 }
+
 video{
 width: 100%;
-padding-bottom: 12px;
+padding-bottom: 14px;
 float:right;
+}
+
+.headerInfo{
+  width: 100%;
 }
 
 #descHeader{
   text-decoration: underline;
-  padding-bottom:0px;
+  padding-bottom:-12px;
 }
+
 .projDescription{
   text-indent: 12px;
   text-align: justify;
@@ -24,4 +30,34 @@ float:right;
   bottom: -8px;
   width: 100%;
   padding-bottom:0px;
+}
+
+@media screen and (max-width: 800px) {
+  video{
+  position: relative;
+  width: 100%;
+  padding-bottom: 12px;
+  float:right;
+  }
+
+  .headerInfo:hover{
+    text-decoration: underline;
+  }
+
+  #headerInfoLink:link    {color:#000;}  /* unvisited link  */
+  #headerInfoLink:visited {color:#000;}  /* visited link    */
+  #headerInfoLink:hover   {color:black;}  /* mouse over link */
+  #headerInfoLink:active  {color:#000;}  /* selected link   */
+  #descHeader{
+    text-decoration: underline;
+    padding-bottom:0px;
+  }
+
+  .projDescription{
+    position: relative;
+    text-indent: 12px;
+    text-align: justify;
+    margin-bottom: 12px;
+    max-width: 600px;
+  }
 }

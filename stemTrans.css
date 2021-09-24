@@ -2,6 +2,11 @@
 .websiteContainer{
 max-width: 500px;
 }
+
+.headerInfo{
+  width: 100%;
+}
+
 video{
   width: 100%;
   max-width: 400px;
@@ -14,13 +19,13 @@ img{
 
 }
 
-#stc_website:link    {color:#000;
+.stc_website:link    {color:#000;
   text-decoration: underline;}  /* unvisited link  */
-#stc_website:visited {color:#000;
+.stc_website:visited {color:#000;
   text-decoration: underline;}  /* visited link    */
-#stc_website:hover   {color:black;
+.stc_website:hover   {color:black;
   text-decoration: none;}  /* mouse over link */
-#stc_website:active  {color:#000;
+.stc_website:active  {color:#000;
   text-decoration: underline;}  /* selected link   */
 
 .descHeader{
@@ -36,6 +41,7 @@ img{
 #trans_logo{
   background-color: black;
   padding-left: 18px;
+  padding-bottom: 8px;
   margin-bottom: 12px;
 }
 

@@ -1,6 +1,6 @@
 @font-face {
 font-family: Inter;
-src: url(“fonts/Inter-Medium.otf);
+src: url(“fonts/Inter-Medium.otf");
 }
 @font-face {
   font-family: Inter SemiBold;
@@ -18,7 +18,6 @@ src: url(“fonts/Inter-Medium.otf);
 }
 
 body{
-  color: red;
   font-family: Inter;
 }
 

@@ -10,17 +10,11 @@ src: url(“fonts/Inter-Medium.otf");
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Inter;
-  font-size: 14px;
+  font-family: 'Inter', sans-serif;  
   line-height: 20px;
   letter-spacing: -.5px;
   //border-style: dotted;
 }
-
-body{
-  font-family: Inter;
-}
-
 
 .websiteContainer {
   padding-top: 0vh;

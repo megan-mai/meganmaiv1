@@ -11,14 +11,12 @@ src: url(“fonts/Inter-Medium.otf");
   margin: 0px;
   padding: 0px;
   font-family: 'Inter', sans-serif;  
-  color: red;
   line-height: 20px;
   letter-spacing: -.5px;
   //border-style: dotted;
 }
 
 body{
-  color: green;
   font-family: 'Inter', sans-serif;
 }
 

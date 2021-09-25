@@ -86,6 +86,9 @@ src: url(“fonts/Inter-Medium.otf);
 
 
 @media screen and (max-width: 800px) {
+  *{
+    font-family: Inter;
+  }
   .portfolioSpace{
     padding-right: 24px;
   }

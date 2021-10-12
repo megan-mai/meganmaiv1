@@ -17,7 +17,6 @@ src: url(“fonts/Inter-Medium.otf);
   //border-style: dotted;
 }
 .websiteContainer {
-  max-width: 800px;
   padding-top: 0vh;
   margin: 20px;
   text-align: left;
